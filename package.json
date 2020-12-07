@@ -1,0 +1,28 @@
+{
+  "name": "mini_antd_ui",
+  "version": "1.0.0",
+  "description": "支付宝小程序商家PC端, antdUI",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomjaylee/mini_antd_ui.git"
+  },
+  "keywords": [
+    "ali_mini",
+    "antd",
+    "business",
+    "pc"
+  ],
+  "author": "atomjaylee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atomjaylee/mini_antd_ui/issues"
+  },
+  "homepage": "https://github.com/atomjaylee/mini_antd_ui#readme"
+}
