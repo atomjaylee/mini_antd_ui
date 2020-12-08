@@ -1,5 +1,7 @@
 {
-  "cSpell.words": [
-    "antd"
-  ]
+  "editor.formatOnSave": true,
+  "[typescript|javascript|json|scss|axml|sjs|acss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": ["antd"]
 }
