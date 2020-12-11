@@ -1,0 +1,1 @@
+export { IButtonPropsType } from './button';

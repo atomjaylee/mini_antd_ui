@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "按钮测试",
+  "usingComponents": {
+    "py-button": "/es/button/button"
+  }
+}
