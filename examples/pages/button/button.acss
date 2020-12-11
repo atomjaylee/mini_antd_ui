@@ -1,1 +1,5 @@
 /* required by usingComponents */
+.container .py-button {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}

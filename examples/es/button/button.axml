@@ -1,1 +1,3 @@
-<view class="py-button">按钮</view>
+<view class="py-button {{ baseClasses }}" onTap="handleClick">
+  <slot></slot>
+</view>

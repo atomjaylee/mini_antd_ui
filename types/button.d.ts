@@ -24,5 +24,5 @@ interface IButtonPropsType extends baseComponent {
   /** 设置按钮类型 */
   type: ButtonType;
   /** 点击按钮的回调函数 */
-  onClick: () => void;
+  onClick: (evt: tinyapp.IBaseEvent) => void;
 }

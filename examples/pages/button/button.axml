@@ -1,1 +1,10 @@
-<view>按钮实例</view>
+<view class="container" onTouchStart>
+  <view>
+    <view>按钮类型</view>
+    <py-button type="primary" data-item="123">主按钮</py-button>
+    <py-button>次按钮</py-button>
+    <py-button type="dashed">虚线按钮</py-button>
+    <py-button type="text">文字按钮</py-button>
+    <py-button type="link">链接按钮</py-button>
+  </view>
+</view>

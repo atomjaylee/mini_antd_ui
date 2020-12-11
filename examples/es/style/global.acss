@@ -1,0 +1,7 @@
+[class*='py-'] {
+  box-sizing: border-box;
+}
+[class*='py-']:before,
+[class*='py-']:after {
+  box-sizing: border-box;
+}
