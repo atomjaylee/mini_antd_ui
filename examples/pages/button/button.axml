@@ -1,10 +1,28 @@
-<view class="container" onTouchStart>
-  <view>
-    <view>按钮类型</view>
-    <py-button type="primary" data-item="123">主按钮</py-button>
+<view class="container">
+  <view class="block">
+    <view class="container-tittle">按钮类型</view>
+    <py-button type="primary">主按钮</py-button>
     <py-button>次按钮</py-button>
     <py-button type="dashed">虚线按钮</py-button>
     <py-button type="text">文字按钮</py-button>
     <py-button type="link">链接按钮</py-button>
+  </view>
+
+  <view class="block">
+    <view class="container-tittle">块级按钮</view>
+    <py-button type="primary" block>主按钮</py-button>
+    <py-button block>次按钮</py-button>
+    <py-button type="dashed" block>虚线按钮</py-button>
+    <py-button type="text" block>文字按钮</py-button>
+    <py-button type="link" block>链接按钮</py-button>
+  </view>
+
+  <view class="block">
+    <view class="container-tittle">禁用按钮</view>
+    <py-button type="primary" disabled>主按钮</py-button>
+    <py-button disabled>次按钮</py-button>
+    <py-button type="dashed" disabled>虚线按钮</py-button>
+    <py-button type="text" disabled>文字按钮</py-button>
+    <py-button type="link" disabled>链接按钮</py-button>
   </view>
 </view>

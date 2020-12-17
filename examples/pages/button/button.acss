@@ -1,4 +1,18 @@
 /* required by usingComponents */
+
+.container{
+  padding: 10px;
+}
+
+.container .block {
+  border-bottom: 1px dashed #d7d7d7;
+}
+
+.container .container-tittle {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
 .container .py-button {
   margin-right: 8px;
   margin-bottom: 12px;

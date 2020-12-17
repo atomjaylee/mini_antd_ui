@@ -36,6 +36,14 @@
   color: #096dd9;
   border-color: #096dd9;
 }
+.py-button-default-disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  box-shadow: none;
+  background: #f5f5f5;
+  border-color: #d9d9d9;
+}
 .py-button-primary {
   color: #fff;
   background-color: #1890ff;
@@ -51,6 +59,14 @@
   background: #096dd9;
   border-color: #096dd9;
 }
+.py-button-primary-disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  box-shadow: none;
+  background: #f5f5f5;
+  border-color: #d9d9d9;
+}
 .py-button-dashed {
   color: rgba(0, 0, 0, 0.85);
   background: #fff;
@@ -65,6 +81,15 @@
   color: #096dd9;
   border-color: #096dd9;
 }
+.py-button-dashed-disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  box-shadow: none;
+  background: #f5f5f5;
+  border-color: #d9d9d9;
+  border-style: dashed;
+}
 .py-button-text {
   color: rgba(0, 0, 0, 0.85);
   background: transparent;
@@ -77,11 +102,25 @@
   background: rgba(0, 0, 0, 0.028);
   border-color: transparent;
 }
+.py-button-text-disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  box-shadow: none;
+  border-color: transparent;
+}
 .py-button-link {
   color: #1890ff;
   background: transparent;
   border-color: transparent;
   box-shadow: none;
+}
+.py-button-link-disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  box-shadow: none;
+  border-color: transparent;
 }
 .py-button-lg {
   height: 40px;
@@ -95,10 +134,6 @@
   font-size: 14px;
   border-radius: 2px;
 }
-.py-button-disabled {
-  color: rgba(0, 0, 0, 0.25);
-  background: #f5f5f5;
-  border-color: #d9d9d9;
-  text-shadow: none;
-  box-shadow: none;
+.py-button-block {
+  width: 100%;
 }

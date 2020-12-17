@@ -53,7 +53,7 @@ Component({
           break;
       }
 
-      return fmtClass((_fmtClass = {}, _fmtClass[prefixCls + "-block"] = !!block, _fmtClass[prefixCls + "-dangerous"] = !!danger, _fmtClass[prefixCls + "-" + shape] = shape, _fmtClass[prefixCls + "-" + type] = type, _fmtClass[prefixCls + "-" + sizeCls] = sizeCls, _fmtClass[prefixCls + "-background-ghost"] = !!ghost, _fmtClass[prefixCls + "-loading"] = loading, _fmtClass[prefixCls + "-disabled"] = disabled, _fmtClass));
+      return fmtClass((_fmtClass = {}, _fmtClass[prefixCls + "-block"] = !!block, _fmtClass[prefixCls + "-dangerous"] = !!danger, _fmtClass[prefixCls + "-" + shape] = shape, _fmtClass[prefixCls + "-" + type + (disabled ? '-disabled' : '')] = type, _fmtClass[prefixCls + "-" + sizeCls] = sizeCls, _fmtClass[prefixCls + "-background-ghost"] = !!ghost, _fmtClass[prefixCls + "-loading"] = loading, _fmtClass));
     },
     handleClick: function handleClick(e) {
       var event = fmtEvent(this.props, e);

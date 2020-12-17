@@ -49,11 +49,10 @@ Component({
         [`${prefixCls}-block`]: !!block,
         [`${prefixCls}-dangerous`]: !!danger,
         [`${prefixCls}-${shape}`]: shape,
-        [`${prefixCls}-${type}`]: type,
+        [`${prefixCls}-${type}${disabled ? '-disabled' : ''}`]: type,
         [`${prefixCls}-${sizeCls}`]: sizeCls,
         [`${prefixCls}-background-ghost`]: !!ghost,
         [`${prefixCls}-loading`]: loading,
-        [`${prefixCls}-disabled`]: disabled,
       });
     },
 
