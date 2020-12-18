@@ -1,6 +1,6 @@
 {
   "name": "mini_antd_ui",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "支付宝小程序商家PC端, antdUI",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "yarn && node scripts/transpiler.js",
-    "build": "yarn && NODE_ENV === 'production' node scripts/transpiler.js"
+    "build": "yarn && NODE_ENV=production node scripts/transpiler.js"
   },
   "repository": {
     "type": "git",

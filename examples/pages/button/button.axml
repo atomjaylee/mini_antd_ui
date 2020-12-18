@@ -25,4 +25,13 @@
     <py-button type="text" disabled>文字按钮</py-button>
     <py-button type="link" disabled>链接按钮</py-button>
   </view>
+
+  <view class="block">
+    <view class="container-tittle">loading按钮</view>
+    <py-button type="primary" loading>主按钮</py-button>
+    <py-button loading>次按钮</py-button>
+    <py-button type="dashed" loading>虚线按钮</py-button>
+    <py-button type="text" loading>文字按钮</py-button>
+    <py-button type="link" loading>链接按钮</py-button>
+  </view>
 </view>

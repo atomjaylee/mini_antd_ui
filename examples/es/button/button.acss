@@ -137,3 +137,21 @@
 .py-button-block {
   width: 100%;
 }
+.py-button-loading {
+  pointer-events: none;
+  position: relative;
+}
+.py-button-loading:before {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background-color: #fff;
+  opacity: 0.35;
+  transition: opacity 200ms;
+  content: '';
+  border-radius: inherit;
+  z-index: 1;
+  pointer-events: none;
+}
